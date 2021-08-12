@@ -13,6 +13,7 @@ permissions:
 permissions:
   - object: /home/ec2-user/node/deploy_scripts/
     pattern: "*.sh"
+    owner: ec2-user
     mode: 777
     type:
       - file
